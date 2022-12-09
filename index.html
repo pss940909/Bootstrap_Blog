@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <style>
+      :root {
+        --bs-font-sans-serif: system-ui, -apple-system, "Microsoft JhengHei",
+          微軟正黑體, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+          "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol", "Noto Color Emoji";
+      }
+      .bg-cover {
+        background-position: center center;
+        background-size: cover;
+      }
+    </style>
+    <title>艾許莉的Blog</title>
+  </head>
+  <body>
+    <!-- 最外層容器 -->
+    <div class="container">
+      <!-- 大標題 -->
+      <header class="py-3 text-center border-bottom">
+        <h1 class="mb-0">
+          <a href="#" class="link-dark text-decoration-none">艾許莉的Blog</a>
+        </h1>
+      </header>
+
+      <!-- 導覽列 -->
+      <div class="overflow-auto mb-3">
+        <nav class="nav justify-content-between mt-3 flex-nowrap text-nowrap">
+          <a href="#" class="nav-link text-secondary">HTML</a>
+          <a href="#" class="nav-link text-secondary">CSS</a>
+          <a href="#" class="nav-link text-secondary">Java Script</a>
+          <a href="#" class="nav-link text-secondary">作品</a>
+          <a href="#" class="nav-link text-secondary">心得</a>
+          <a href="#" class="nav-link text-secondary">求學經歷</a>
+          <a href="#" class="nav-link text-secondary">工作經歷</a>
+          <a href="#" class="nav-link text-secondary">轉職經驗</a>
+          <a href="#" class="nav-link text-secondary">社群</a>
+        </nav>
+      </div>
+
+      <!-- banner -->
+      <div
+        style="
+          background-image: url(https://images.unsplash.com/photo-1658067429207-8c1df3c22cd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        "
+        class="text-white p-4 p-md-5 rounded-3 bg-cover mb-5"
+      >
+        <div class="col-md-6">
+          <h1 class="display-4 fst-italic">有去麗眼在後之散溫們身得兩公她。</h1>
+          <p class="lead my-3">
+            量正了無，華資受理中類的業故功口年在人題手園著買。善想比麼一下紀能但手旅正選事路，買道其適、我有而公、兒個了分的兒此而放，告點遠認要建集設天過喜現計的道子信在日人水下、木不工不作只，生中新了時己歡評。
+          </p>
+          <p class="lead mb-0"><a href="#" class="link-light">繼續閱讀</a></p>
+        </div>
+      </div>
+
+      <!-- 卡片 -->
+      <div class="row row-cols-1 row-cols-lg-2 mb-5">
+        <!-- 卡片一-->
+        <div class="col mb-3">
+          <div class="card row g-0 flex-row h-100">
+            <!-- 左側內容 -->
+            <div class="col p-4 d-flex flex-column">
+              <strong class="text-secondary mb-2">藝術</strong>
+              <h3 class="mb-0">創造力不等於想像力</h3>
+              <div class="text-muted">三月 12 日</div>
+              <p class="mb-auto">
+                的不是也有作了在被一個，的那個有問題坐在心挑戰，名其時候我頭髮我一起不住。名其時候我頭髮我一起不住。名其時候我頭髮我一起不住。
+              </p>
+              <a href="＃" class="text-secondary">繼續閱讀...</a>
+            </div>
+            <!-- 右側圖片 -->
+            <div
+              style="
+                background-image: url(https://images.unsplash.com/photo-1670258880109-18409061d7b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=700&q=60);
+              "
+              class="col-4 d-none d-lg-block bg-cover"
+            ></div>
+          </div>
+        </div>
+        <!-- 卡片二 -->
+        <div class="col mb-3">
+          <div class="card row g-0 flex-row h-100">
+            <!-- 左側內容 -->
+            <div class="col p-4 d-flex flex-column">
+              <strong class="text-secondary mb-2">藝術</strong>
+              <h3 class="mb-0">創造力不等於想像力</h3>
+              <div class="text-muted">三月 12 日</div>
+              <p class="mb-auto">
+                的不是也有作了在被一個，的那個有問題坐在心挑戰，名其時候我頭髮我一起不住。
+              </p>
+              <a href="#" class="text-secondary">繼續閱讀...</a>
+            </div>
+            <!-- 右側圖片 -->
+            <div
+              style="
+                background-image: url(https://images.unsplash.com/photo-1669205022588-e1ab09cabfed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+              "
+              class="col-4 bg-cover d-none d-lg-block"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-md-5">
+        <div class="col-md-8">
+          <!-- 文章本體 -->
+          <article>
+            <div class="article-content border-bottom mb-3">
+              <h2>真正的「做自己」</h2>
+              <p>2022年一月 <a href="#">艾許莉</a></p>
+              <img
+                src="https://images.unsplash.com/photo-1670535428382-e48184090c9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div
+                class="content-container article-container longform-container"
+                itemprop="articleBody"
+              >
+                <div class="article-body longform-body">
+                  <p class="body-text">
+                    以前在平面媒體產業各司其職，多半都採獨立作業，只要不偏離大方向，限制於發行頻率，日報、週刊或是月刊，一但有溝通成本的產生，也多半是協調性質的討論，著重於創意層面的磨合或是跨部門的分工整合。<br />
+                  </p>
+                  <p class="body-text">
+                    隨著職位越爬越高，時間被瓜分得很零碎，我對於開會的節奏特別敏感，若是陷入過度冗長的討論，氣氛消極，虛應彼此，甚至退回到腦力激盪的階段，必須投入太多「溝通成本」就視為虛耗。我當時的做法是喊停，請同事們再準備充分一點，擇日再議。
+                  </p>
+                  <p class="body-text">
+                    直到公司外聘顧問重整組織架構，我才從支援人員的口中知道，我的做法並不算明快果決，<strong>反而讓許多同事認為，我是一個拒絕溝通的主管，這才明白付出溝通成本的必要，是為了建立更流暢的合作默契，我那被拖延的心態確實太過主觀</strong>。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="article-content border-bottom mb-3">
+              <h2>溝通成本一定有</h2>
+              <p>2022年二月 <a href="#">艾許莉</a></p>
+              <img
+                src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div
+                class="content-container article-container longform-container"
+                itemprop="articleBody"
+              >
+                <div class="article-body longform-body">
+                  <p class="body-text">
+                    以前在平面媒體產業各司其職，多半都採獨立作業，只要不偏離大方向，限制於發行頻率，日報、週刊或是月刊，一但有溝通成本的產生，也多半是協調性質的討論，著重於創意層面的磨合或是跨部門的分工整合。<br />
+                  </p>
+                  <p class="body-text">
+                    隨著職位越爬越高，時間被瓜分得很零碎，我對於開會的節奏特別敏感，若是陷入過度冗長的討論，氣氛消極，虛應彼此，甚至退回到腦力激盪的階段，必須投入太多「溝通成本」就視為虛耗。我當時的做法是喊停，請同事們再準備充分一點，擇日再議。
+                  </p>
+                  <p class="body-text">
+                    直到公司外聘顧問重整組織架構，我才從支援人員的口中知道，我的做法並不算明快果決，<strong>反而讓許多同事認為，我是一個拒絕溝通的主管，這才明白付出溝通成本的必要，是為了建立更流暢的合作默契，我那被拖延的心態確實太過主觀</strong>。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="article-content mb-3">
+              <h2>情緒是一記迴力鏢</h2>
+              <p>2022年三月 <a href="#">艾許莉</a></p>
+              <img
+                src="https://images.unsplash.com/photo-1670431608778-c622a394c686?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60"
+                alt=""
+                class="img-fluid mb-3"
+              />
+              <div
+                class="content-container article-container longform-container"
+                itemprop="articleBody"
+              >
+                <div class="article-body longform-body">
+                  <p class="body-text">
+                    以前在平面媒體產業各司其職，多半都採獨立作業，只要不偏離大方向，限制於發行頻率，日報、週刊或是月刊，一但有溝通成本的產生，也多半是協調性質的討論，著重於創意層面的磨合或是跨部門的分工整合。<br />
+                  </p>
+                  <p class="body-text">
+                    隨著職位越爬越高，時間被瓜分得很零碎，我對於開會的節奏特別敏感，若是陷入過度冗長的討論，氣氛消極，虛應彼此，甚至退回到腦力激盪的階段，必須投入太多「溝通成本」就視為虛耗。我當時的做法是喊停，請同事們再準備充分一點，擇日再議。
+                  </p>
+                  <p class="body-text">
+                    直到公司外聘顧問重整組織架構，我才從支援人員的口中知道，我的做法並不算明快果決，<strong>反而讓許多同事認為，我是一個拒絕溝通的主管，這才明白付出溝通成本的必要，是為了建立更流暢的合作默契，我那被拖延的心態確實太過主觀</strong>。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="d-none d-md-block col-md-4">
+          <div class="sticky-top" style="top: 16px">
+            <div class="p-4 bg-light rounded-3">
+              <h4>關於我</h4>
+              <p class="mb-0">
+                總是相信人生中很多的啟發都是從對話中發生的，這些對話偶爾是自我檢討、自我安慰、更多的是打醒自己的告解，而這些啟發往往是讓我們得以認識自己，或說是認清自己的契機，並讓我們漸漸地被磨成更好的自己。
+              </p>
+            </div>
+
+            <div class="p-4">
+              <h4>文章</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">2022年一月</a></li>
+                <li><a href="#">2022年二月</a></li>
+                <li><a href="#">2022年三月</a></li>
+                <li><a href="#">2022年四月</a></li>
+                <li><a href="#">2022年五月</a></li>
+                <li><a href="#">2022年六月</a></li>
+                <li><a href="#">2022年七月</a></li>
+                <li><a href="#">2022年八月</a></li>
+                <li><a href="#">2022年九月</a></li>
+                <li><a href="#">2022年十月</a></li>
+              </ol>
+            </div>
+
+            <div class="p-4">
+              <h4>追蹤我</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-light text-center p-4 mt-5">
+      <p>Bootstrap 練習作業</p>
+      <p class="mb-0"><a href="#">Back to Top</a></p>
+    </footer>
+    <!-- bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
